@@ -1,0 +1,18 @@
+@media screen and (max-width : 900px) 
+{.logopic{width: 150px;
+}
+}
+@media screen and (max-width:900px) {
+    .main-nav li{
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:900px) {.mappic p{
+    display: block;
+    width: 90%;
+    padding: 0px 10px;
+}
+}

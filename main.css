@@ -1,0 +1,214 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    background-color: #ee1c25;
+    text-align: center;
+    padding: 10px;
+}
+
+.logopic {
+    width: 200px;
+    max-width: 100%;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+
+.main-nav ul {
+    background-color: white;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-nav li {
+    list-style: none;
+    flex: 1;
+    text-align: center;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+    display: block;
+}
+
+.main-nav li a.active {
+    color: #ee1c25;
+}
+
+.main-nav li a:hover:not(.active) {
+    color: #1286cf;
+}
+
+main {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.intro h1 {
+    color: #ee1c25;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.intro p {
+    color: #4b4b4b;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.mappic {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mappic p {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.map-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.join {
+    background-color: #f5f5f5;
+    color: #4b4b4b;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.join h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #ee1c25;
+    border-radius: 28px;
+    width: 80%;
+    max-width: 400px;
+}
+
+footer {
+    background-color: #ee1c25;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+}
+
+/* Responsive Design for Small Screens */
+@media screen and (max-width: 768px) {
+
+    .logopic {
+        width: 150px;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+    }
+
+    .main-nav li {
+        width: 100%;
+    }
+
+    .main-nav li a {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .mappic {
+        display: block;
+    }
+
+    .mappic p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .map-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .join h2 {
+        font-size: 28px;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logopic {
+        width: 120px;
+    }
+
+    .main-nav li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .intro h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro p {
+        font-size: 0.9rem;
+    }
+
+    .map-img {
+        height: auto;
+    }
+
+    .join h2 {
+        font-size: 24px;
+    }
+
+    form input {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,1 @@
+alert("Welcome to Mario Club | Official Website!")
